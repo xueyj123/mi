@@ -1,0 +1,28 @@
+/* .font_1{
+    text-align: center;
+    color: #b0b0b0;
+} */
+/* a:hover{
+    text-decoration: none;
+    color: #ff6700;
+} */
+.color_green{
+    border-top: 1px solid green;
+color: green;
+}
+.color_orange{
+    border-top: 1px solid orange;
+color: orange;
+}
+.color_blue{
+    border-top: 1px solid blue;
+color: blue;
+}
+.color_red{
+    border-top: 1px solid red;
+color: red;
+}
+.hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1)
+}

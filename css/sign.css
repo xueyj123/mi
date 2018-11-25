@@ -1,0 +1,256 @@
+@import url('./reset.css');
+@import url('./login.css');
+#header {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+#header>a {
+    width: 200px;
+    height: 98px;
+    background: url(../imgs/登录/mistore_logo.png) no-repeat;
+}
+
+.bg {
+    width: 100%;
+    height: 588px;
+    position: absolute;
+    left: 0;
+    top: 98px;
+}
+
+.bg {
+    background: url(../imgs/登录/1163e79f6cf0786f188daeb89c8a22c7.jpg) no-repeat top center;
+    ;
+}
+
+/* 表单 */
+
+.form_nav {
+    width: 1130px;
+    height: 524px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.form {
+    width: 410px;
+    height: 524px;
+    position: absolute;
+    left: 720px;
+    top: 6px;
+    background: white;
+}
+
+/* 表单标题 */
+
+.form_title {
+    width: 410px;
+    height: 31px;
+    padding: 27px 0 24px 0;
+    text-align: center;
+}
+
+.form_title>a {
+    font-size: 24px;
+    line-height: 31px;
+    color: #666;
+}
+
+.line {
+    width: 1px;
+    height: 24px;
+    margin: 0 35px 0 42px;
+    border: 1px solid #e0e0e0;
+}
+
+#now {
+    color: #f56600;
+}
+
+.form_title>a:hover {
+    color: #f56600;
+}
+
+/* 表单内容 */
+
+.content {
+    position: relative;
+    height: 226px;
+    width: 348px;
+    padding: 0 31px 0 31px;
+    /* background: bisque; */
+}
+
+.input {
+    height: 124px;
+    width: 348px;
+    /* background: turquoise; */
+}
+
+label {
+    display: block;
+    height: 50px;
+    width: 348px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    position: absolute;
+    border: 1px solid #e0e0e0;
+}
+
+/* 账号，密码 */
+
+.usename {
+    width: 318px;
+    height: 24px;
+    line-height: 24px;
+    padding: 13px 16px 13px 14px;
+    display: block;
+    border: 0;
+    outline: none;
+    color: #333;
+}
+
+.usename::placeholder {
+    color: rgb(157, 157, 157);
+}
+
+.pass {
+    top: 64px;
+}
+
+/* 登录按钮 */
+
+.button {
+    bottom: 13px;
+    border: 0;
+}
+
+.sign {
+    background-color: #ef5b00;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+}
+
+/* 手机登录注册 */
+
+.form_p {
+    width: 348px;
+    height: 19px;
+    /* background: violet; */
+    position: absolute;
+    bottom: 0;
+}
+
+.form_p>a:nth-child(1) {
+    color: #ef5b00;
+    font-size: 14px;
+}
+
+.form_p>a:nth-child(2) {
+    color: #999;
+    float: right;
+    padding-left: 5px;
+}
+
+.form_p>span:nth-child(3) {
+    color: #999;
+    float: right;
+    padding-left: 5px;
+}
+
+.form_p>a:nth-child(4) {
+    color: #999;
+    float: right;
+}
+
+.form_p>a:hover {
+    color: #ef5b00;
+}
+
+/* 其他登录方式 */
+
+.othersign {
+    width: 348px;
+    padding: 0 31px;
+    height: 65px;
+    /* background: aquamarine; */
+    position: absolute;
+    bottom:27px;
+}
+
+.othersign_line {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+}
+
+.othersign_p {
+    text-align: center;
+    color: #bbb;
+}
+
+/* 登录方式图标 */
+
+.othersign_img {
+    /* padding-top: 3px; */
+    width: 348px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+}
+
+.othersign_img li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 17px;
+    border-radius: 50%;
+    /* #0288d1 */
+    background: violet;
+}
+.othersign_img li:nth-child(1){  
+    background: #0288d1;}
+.othersign_img li:nth-child(2){background: #d32f2f}
+.othersign_img li:nth-child(3){
+background: #0ae;
+}
+.othersign_img li:nth-child(4){
+background: #00d20d;
+}
+
+
+
+.othersign_img a {
+    width: 18px;
+    height: 18px;
+    margin: 4px 6px 0 6px;
+}
+
+.othersign_img>li:nth-child(1)>a {
+    background: url(../imgs/登录/icons_type.png) no-repeat -19px 0;
+}
+
+.othersign_img>li:nth-child(2)>a {
+    background: url(../imgs/登录/icons_type.png) no-repeat -38px 0;
+}
+
+.othersign_img>li:nth-child(3)>a {
+    margin: 6px 1px 0 4px;
+    width: 25px;
+    background: url(../imgs/登录/icons_type.png) no-repeat -57px 0;
+}
+
+.othersign_img>li:nth-child(4)>a {
+    margin: 6px 3px 0 3px;
+    width: 24px;
+    background: url(../imgs/登录/icons_type.png) no-repeat -83px 0;
+}

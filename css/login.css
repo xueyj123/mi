@@ -1,0 +1,252 @@
+@import url('./reset.css');
+#wrapper {
+    width: 1903px;
+    height: 938px;
+    position: relative;
+    background: #F9F9F9;
+}
+
+#wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 854px;
+    height: 548px;
+    margin-left: -427px;
+    margin-top: -274px;
+    background: white;
+}
+
+#head {
+    width: 786px;
+    height: 48px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+#wrap>h4 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #333;
+    line-height: 1.5;
+    color: #333;
+    text-align: center;
+}
+
+#neirong {
+    width: 332px;
+    height: 246px;
+    margin: 0 auto;
+    padding: 30px 0;
+    /* background: aqua; */
+}
+
+#neirong h4 {
+    padding-bottom: 5px;
+    color: #333;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#neirong>.text {
+    width: 316px;
+    height: 40px;
+    padding-left: 14px;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #e8e8e8;
+    color: #555;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.text>p {
+    float: left;
+    width: 275px;
+    border-right: 1px solid #e8e8e8;
+}
+
+.text>i {
+    float: right;
+    background: url(../imgs/注册/icon_user.png);
+    width: 16px;
+    height: 16px;
+    margin: 11px 12px 0 12px;
+}
+
+.tip {
+    margin-top: -10px;
+    margin-bottom: 15px;
+    color: #666
+}
+
+.phone_num {
+    width: 332px;
+    height: 42px;
+    /* background: blue; */
+}
+
+.num_1 {
+    width: 54px;
+    text-align: center;
+    padding: 0 9px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    vertical-align: middle;
+    border: 1px solid #e8e8e8;
+    color: #555;
+    cursor: pointer;
+}
+
+#tel_num {
+    width: 24px;
+    border-right: none;
+    float: left;
+}
+
+.num_1>i {
+    float: left;
+    margin: 17px 0 0 10px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #9d9d9d transparent transparent transparent;
+}
+
+.num_2 {
+    width: 257px;
+    text-align: center;
+    /* padding: 0 9px; */
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    vertical-align: middle;
+    border: 1px solid #e8e8e8;
+    color: #555;
+    cursor: pointer;
+    border-left: none;
+}
+
+.num_2>p {
+    width: 236px;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px;
+    color: #9D9D9D;
+    text-align: left;
+}
+
+.input {
+    width: 332px;
+    height: 42px;
+}
+
+.submit_input {
+    width: 330px;
+    height: 42px;
+    margin: 0 auto;
+    line-height: 42px;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    cursor: pointer;
+    background-color: #ff6700;
+    margin-top: 15px;
+    border: 1px solid rgba(186, 186, 186, 0.3);
+    color: #fff
+}
+
+.submit_input:hover {
+    background: #ff936a;
+}
+.foot_box{
+    width: 854px;
+    padding-top: 40px;
+    text-align: center;
+    color: #9D9D9D;
+}
+
+
+.foot_box>i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../imgs/注册/下载.png);
+    vertical-align: middle;
+}
+.foot_box>a{
+    font-weight: bold;
+}
+#footer{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -427px;
+    width: 854px;
+    color: #9d9d9d;
+    text-align: center;
+    height: 80px;
+    /* background: olive; */
+    /* position: fixed;
+    left: 50%;
+    bottom: 0px; */
+}
+
+.footer_top{
+    
+width: 854px;
+height: 19px;
+text-align: center;
+}
+.footer_top>li{
+display: inline-block;
+/* width: 52px;
+height: 16px; */
+
+}
+.footer_top>li>a{
+    /* width:28px; */
+    padding: 0 10px;
+    color: #9d9d9d;
+}
+.footer_top>li:nth-child(1)>a{
+    color: #333;
+}
+.footer_top>li:nth-child(3)>a{
+    /* width:46px;
+    height: 16px; */
+    padding: 0 10px;
+}
+
+.footer_top>li:nth-child(4)>a{
+    /* width:46px;
+    height: 16px; */
+    padding: 0 10px;
+}
+.footer_top>li>a:hover{
+    color: #333;
+}
+
+.footer_bottom{
+    
+    width: 854px;
+    height: 24px; 
+    padding: 10px;
+    color: #9d9d9d;
+}
+.footer_bottom>a{
+    color: #9d9d9d;
+}
+
+
+
+/* @media and(min-height:612px){
+
+} */
